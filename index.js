@@ -14,7 +14,7 @@ var fs = require('fs'),
     url = require('url'),
     StringDecoder = require('string_decoder').StringDecoder,
     // project dependancies
-    config = require('./config'),
+    config = require('./lib/config'),
     // internal collections
     handlers = { 
         // generic fallback handler that returns an empty object
