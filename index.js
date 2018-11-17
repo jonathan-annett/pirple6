@@ -12,7 +12,7 @@ var http = require('http'),
     https = require('https'),
 
     // project dependancies
-    config = require('./lib/handlers'),
+    config = require('./lib/config'),
     utils = require('./lib/utils'),
 
     // protocol server instances
