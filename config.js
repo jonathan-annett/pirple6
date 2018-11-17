@@ -8,7 +8,7 @@ var certs = function () {
 			 };
 };
 
-var enviroments = {
+var environments = {
 
 	staging : function () {
 		return {
@@ -36,8 +36,8 @@ var enviroments = {
 	}
 };
 
-var envMode = enviroments[process.env.NODE_ENV] || enviroments.staging;
+var envMode = environments[process.env.NODE_ENV] || environments.staging;
 
-module.exports = typeof envMode === 'function' ? envMode() : enviroments.staging();
+module.exports = typeof envMode === 'function' ? envMode() : environments.staging();
 
 if (process.mainModule===module) console.log({config:module.exports});
