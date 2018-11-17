@@ -18,7 +18,7 @@ var http = require('http'),
     // protocol server instances
     servers = {};
 
-servers.unified = function(req, res) {
+    var unified_server = function(req, res) {
 
     utils.getJsonPayload(req, function(payloadIn) {
 
@@ -55,9 +55,9 @@ servers.unified = function(req, res) {
 
 };
 
-servers.http = http.createServer(servers.unified);
+servers.http = http.createServer(unified_server);
 
-servers.https = https.createServer(config.https.options, servers.unified);
+servers.https = https.createServer(config.https.options, unified_server);
 
 
 // start each server.
