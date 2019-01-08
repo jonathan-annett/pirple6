@@ -2,7 +2,7 @@
 
 Homework Assignment #6
 
-Turn Homework [Assignment #1](https://github.com/jonathan-annett/pirple1) into a cluster-fork
+Turn Homework [Assignment #1](https://github.com/jonathan-annett/pirple1) into a clustered app.
 
 Assignment [specification](assignment.md)
 
