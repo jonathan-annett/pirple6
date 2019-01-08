@@ -76,7 +76,7 @@ fi
     [[ "${OUT}" == "/dev/null" ]] && rm ./temp.in.json
 
     CODE=( $(grep "< HTTP/1" curl.err | cut -d "/" -f 2 ) )
-
+echo ${CODE}
     if [ ${CODE[1]} -ge 200 ] && [ ${CODE[1]} -lt 300 ] ; then
         true
     else
