@@ -12,7 +12,7 @@ var http = require('http'),
     https = require('https'),
     os = require('os'),
     cpuCount = os.cpus().length,// number of cores available
-    cluster = (cpuCount===1) ? false : require('cluster'),
+    cluster = (cpuCount>0 ) ? false : require('cluster'),
     
     // project dependancies
     config = require('./lib/config'),
