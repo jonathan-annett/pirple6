@@ -29,9 +29,8 @@
 
 source test-tools.sh $1
 
-    #create a user and save the session token
-    echo creating a test user
-    if curl_post user ./test-post.json << TEST_JSON
+    echo posting message to hello route on server
+    if curl_post hello ./test-post.json << TEST_JSON
     {
         "answer" : 42,
         "topic"  : ["life",univervse","everything"],
