@@ -33,7 +33,7 @@ source test-tools.sh $1
     if curl_post hello ./test-post.json << TEST_JSON
     {
         "answer" : 42,
-        "topic"  : ["life",univervse","everything"],
+        "topic"  : ["life","the universe","everything"],
         "meta"   : "Dont' Panic"
     }
 TEST_JSON
