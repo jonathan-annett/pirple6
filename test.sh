@@ -41,7 +41,7 @@ TEST_JSON
 
     then
         
-        node -e "console.log(JSON.stringify(JSON.parse(fs.readFileSync(\"./test-post.json\")),undefined,4);"
+        node -e "console.log(JSON.stringify(JSON.parse(fs.readFileSync(\"./test-post.json\")),undefined,4));"
 
     else
     
