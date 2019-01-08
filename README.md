@@ -2,18 +2,19 @@
 
 Homework Assignment #6
 
-This is the sixth (and last) of several homework assignments in this course. In order to receive your certificate of completion (at the end of this course) you must complete all the assignments and receive a passing grade. 
+Turn Homework [Assignment #1](https://github.com/jonathan-annett/pirple1) into a cluster-fork
 
-How to Turn It In:
+Assignment [specification](assignment.md)
 
-1. Create a public github repo for this assignment. 
 
-2. Create a new post in the Facebook Group  and note "Homework Assignment #6" at the top.
+**TLDR**  
 
-3. In that thread, discuss what you have built, and include the link to your Github repo. 
+```bash
 
-The Assignment:
+git clone https://github.com/jonathan-annett/pirple6.git
+cd pirple6
+(sleep 5; . test.sh) & node index
 
-Of all the modules we just explored, the Cluster module is likely the most important for performance. In this homework assignment, please return to your "Hello World" API from the first homework assignment, and refactor it to run across all the cores of your machine (using the cluster module).
 
-When a request comes in, it should respond to it just as normal (only once).
+```
+
