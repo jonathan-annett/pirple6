@@ -39,7 +39,7 @@ parse_json() {
 
 
 # we are going to use the local host on port 3000 for this test
-LOCAL_URL=http://localhost:3000/api
+LOCAL_URL=http://localhost:3000/
 
 
 # bash helper function to post JSON from stdin via curl
