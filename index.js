@@ -1,6 +1,6 @@
 /*
 
-Homework Assignent 1
+Homework Assignent 6
 Author: Jonathan Annett
 
 */

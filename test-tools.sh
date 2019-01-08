@@ -1,6 +1,6 @@
 #
 #  File: test-tools.sh
-#  Project: Asignment 2 https://github.com/jonathan-annett/pirple2
+#  Project: Asignment 6 https://github.com/jonathan-annett/pirple2
 #  Synopsis: test script to demonstrate required functionality.
 #
 #  Arguments: none
